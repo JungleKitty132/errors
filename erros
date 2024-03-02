@@ -1,0 +1,13 @@
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/bridge/esx/server:16: No such export getSharedObject in resource es_extended
+[ script:oxmysql] Error: ox_inventory was unable to execute a query!
+[ script:oxmysql] Query: INSERT IGNORE INTO `licenses` (`type`, `label`) VALUES (?, ?)
+[ script:oxmysql] ["weapon","Weapon License"]
+[ script:oxmysql] Table 'zap1185762-1.licenses' doesn't exist
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:84: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Query: SHOW COLUMNS FROM `owned_vehicles`
+[ script:ox_inventory] []
+[ script:ox_inventory] Table 'zap1185762-1.owned_vehicles' doesn't exist
+[ script:ox_inventory] &gt; fn (@ox_inventory/modules/mysql/server.lua:84)
+[ script:ox_inventory] &gt; logError (@oxmysql/dist/build.js:26272)
+[ script:ox_inventory] &gt; rawQuery (@oxmysql/dist/build.js:26447)
+[ script:ox_inventory] &gt; processTicksAndRejections (node:internal/process/task_queues:96)
